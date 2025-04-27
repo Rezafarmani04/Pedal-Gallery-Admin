@@ -26,7 +26,7 @@ function SignupForm() {
           type="text"
           id="fullName"
           disabled={isLoading}
-          {...register('fullName', { required: 'This field is required' })}
+          {...register('fullName', { required: 'این فیلد را پر کنید' })}
         />
       </FormRow>
 
@@ -36,10 +36,10 @@ function SignupForm() {
           id="email"
           disabled={isLoading}
           {...register('email', {
-            required: 'This field is required',
+            required: 'این فیلد را پر کنید',
             pattern: {
               value: /\S+@\S+\.\S+/,
-              message: 'Please provide a valid email address',
+              message: 'یک ایمیل معتبر وارد کنید',
             },
           })}
         />
@@ -54,10 +54,10 @@ function SignupForm() {
           id="password"
           disabled={isLoading}
           {...register('password', {
-            required: 'This field is required',
+            required: 'این فیلد را پر کنید',
             minLength: {
               value: 8,
-              message: 'Password needs a minimum of 8 characters',
+              message: 'رمز عبور حداقل 8 کاراکتر باشد',
             },
           })}
         />
@@ -72,9 +72,9 @@ function SignupForm() {
           id="passwordConfirm"
           disabled={isLoading}
           {...register('passwordConfirm', {
-            required: 'This field is required',
+            required: 'این فیلد را پر کنید',
             validate: (value) =>
-              value === getValues().password || 'Passwords need to match',
+              value === getValues().password || 'رمز عبور ها باید مشابه باشند',
           })}
         />
       </FormRow>
