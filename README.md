@@ -1,3 +1,38 @@
+# 🚗 Car Showroom Dashboard
+
+An **admin dashboard** for managing a car showroom built with **React**, **Supabase**, and **React Query**.  
+The dashboard provides powerful features for managing cars, users, and showroom activities with a responsive and modern UI.
+
+---
+
+## ✨ Features
+- 🔍 **Advanced Filtering & Searching**  
+  - Find cars easily using multiple filter options and full-text search  
+
+- 🚘 **Car Management**  
+  - Add new cars  
+  - Edit existing car details  
+  - Delete cars  
+
+- 🛒 **Sales Management**  
+  - Add new car sales records  
+
+- 👤 **User Management**  
+  - Add new users  
+  - Update user profiles  
+
+- 📱 **Responsive Design**  
+  - Fully optimized for desktop, tablet, and mobile  
+
+---
+
+## 🛠 Tech Stack
+- **Frontend:** React, React Router, React Query  
+- **Backend / Services:** Supabase  
+- **Styling:** Tailwind CSS (or your chosen styling library)  
+
+---
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
